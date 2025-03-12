@@ -1,7 +1,8 @@
 
 // Colors.dart
 import 'package:flutter/material.dart';
-
+//https://www.protectedtext.com/cse414-lab-code 
+https://www.figma.com/design/raf7jMMhm2lfYP3ZfbJnjn/E-Commerce---Mobile-Apps-(Community)?node-id=15-4801&p=f
 class FColors {
   //Primary
   static const primary = Color(0xFF5CC936);

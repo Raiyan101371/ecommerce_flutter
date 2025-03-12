@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-
+import 'package:icons_plus/icons_plus.dart';
+import'../../../home/widgets/app_bar.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -18,7 +18,20 @@ class Home extends StatelessWidget {
           ),
         ),
         centerTitle: true,
+        actions: [
+          Container(
+            padding:EdgeInsets.fromLTRB(10,10,5,10),
+            child:Icon(Iconsax.notification_bing_outline),
+          ),
+          Container(
+            padding:EdgeInsets.fromLTRB(10,10,5,10),
+            child:Icon(IonIcons.cart),
+        ],
       ),
     );
   }
+}
+
+class FAppBar extends StatelessWidget implements PreferredSizeWidget{
+  const FAppbar({super.key,});
 }
