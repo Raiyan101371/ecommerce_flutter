@@ -8,7 +8,6 @@ void main() {
 class FreebiesEcom extends StatelessWidget {
   const FreebiesEcom({super.key});
 
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,5 +15,4 @@ class FreebiesEcom extends StatelessWidget {
       home: Home(),
     );
   }
-      
-        
+}
